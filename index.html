@@ -12,16 +12,16 @@
     <title>Коты и кошки</title>
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="wrapper">
         <div class="header__wrapper">
           <div class="logo">VASYA&KUKA</div>
           <div class="nav"></div>
           <ul class="menu">
-            <li class="menu__item"><a href=""> Главная страница</a></li>
-            <li class="menu__item"><a href="">О Васе</a></li>
-            <li class="menu__item"><a href="">О Куке</a></li>
-            <li class="menu__item"><a href="">Контакты</a></li>
+            <li class="menu__item"><a href="#header">Главная</a></li>
+            <li class="menu__item"><a href="#vasya">О Васе</a></li>
+            <li class="menu__item"><a href="#kuka">О Куке</a></li>
+            <li class="menu__item"><a href="#footer">Контакты</a></li>
           </ul>
         </div>
       </div>
@@ -51,7 +51,7 @@
         <div class="wrapper">
           <div class="cat__wrapper">
             <div class="cat__info">
-              <h2 class="cat__title">Привет, я Вася!</h2>
+              <h2 id="vasya" class="cat__title">Привет, я Вася!</h2>
               <p class="cat__text">
                 Нас зовут Вася и Кука и мы самые милые котики во всей
                 вселенной!Нас зовут Вася и Кука и мы самые милые котики во всей
@@ -80,7 +80,7 @@
               height="500"
             />
             <div class="cat__info">
-              <h2 class="cat__title">Привет, я Кука!</h2>
+              <h2 id="kuka" class="cat__title">Привет, я Кука!</h2>
               <p class="cat__text">
                 Нас зовут Вася и Кука и мы самые милые котики во всей
                 вселенной!Нас зовут Вася и Кука и мы самые милые котики во всей
@@ -94,16 +94,16 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="wrapper">
         <div class="footer__wrapper">
-          <h2 class="footer__title">Контакты</h2>
-
           <div class="footer__info">
+            <p class="footer__title">Контакты:</p>
             <p class="footer__item">ФИО: Меркель Ирина Сергеевна</p>
             <p class="footer__item">Почта: irinamerkel979@gmail.com</p>
             <p class="footer__item">Тел.: 8-927-061-47-25</p>
           </div>
+          <a class="footer__backToTop" href="#header">Вернуться наверх 🔼</a>
         </div>
       </div>
     </footer>

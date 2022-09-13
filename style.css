@@ -94,10 +94,20 @@ a {
   font-weight: lighter;
 }
 
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 .footer__item {
   letter-spacing: 1px;
 }
 
 .footer__title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer__backToTop {
+  color: white;
 }
