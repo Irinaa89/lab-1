@@ -27,6 +27,7 @@ body {
 
 .logo {
   font-weight: bold;
+  color: white;
 }
 
 .menu {
@@ -38,9 +39,17 @@ body {
   margin: 0 20px;
 }
 
+.menu__item:hover {
+  text-decoration: underline;
+}
+
+.menu__item a:hover {
+  color: rgb(0, 0, 0);
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .preview__wrapper {
@@ -83,12 +92,12 @@ a {
 }
 
 .cat__text {
-  line-height: 1.5;
+  line-height: 2;
 }
 
 /* Footer */
 .footer {
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(214, 149, 255);
   padding: 20px;
   color: white;
   font-weight: lighter;
