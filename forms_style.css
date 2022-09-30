@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0;
+  box-shadow: 0 0 10px #c4c4c4;
+  padding: 40px;
+}
+
+#fio {
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#password {
+  padding: 10px;
+  font-size: 20px;
+}
+
+#login {
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#email {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.input-wrapper {
+  margin: 20px 0;
+}
+
+select {
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: inherit;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  text-align: center;
+}
+
+#r1,
+#r2,
+#r3 {
+  cursor: pointer;
+}
+
+#text {
+  padding: 10px;
+  font-size: 18px;
+  min-height: 150px;
+  margin-bottom: 20px;
+}
+
+#file {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#consentToDataProcessing {
+  cursor: pointer;
+}
+
+#rememberMe {
+  cursor: pointer;
+}
