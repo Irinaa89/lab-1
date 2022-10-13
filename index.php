@@ -22,15 +22,6 @@ $menu_list = ["Главная", "О Васе", "О Куке", "Контакты"
 $id_list = ["header", "vasya", "kuka", "footer"];
  ?>
 
-
-
-
-
-
-
-
-    <?php require("components/header.php")?>
-
-    <?php require("components/main.php")?>
-
+<?php require("components/header.php")?>
+<?php require("components/main.php")?>
 <?php require("components/footer.php")?>

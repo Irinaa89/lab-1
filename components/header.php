@@ -23,12 +23,18 @@
             <?php echo '<li class="menu__item"><a href="#',$id_list[$i],'">',$menu_list[$i],'</a></li>' ?>
             <?php endfor ?>
             <li class="menu__item">
-                <?php echo '<a href="./feedback.php">Жалоба/Предложение</a>' ?>
-              
+              <a href=<?php 
+              $link = "./feedback.php";
+              $link_name = "Жалоба/Предложение";
+              echo $link
+              ?>><?= $link_name ?></a>
             </li>
             <li class="menu__item">
-            <?php echo '<a href="./login.php">Войти в аккаунт</a>' ?>
-              
+              <a href=<?php 
+              $link = "./login.php";
+              $link_name = "Войти в аккаунт";
+              echo $link
+              ?>><?= $link_name ?></a>
             </li>
           </ul>
         </div>
