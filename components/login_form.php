@@ -1,6 +1,6 @@
 <!-- Форма -->
 <div class="form-wrapper">
-      <form action="https://httpbin.org/post" method="post">
+      <form action="../home.php" method="post">
         <!-- Логин -->
         <label for="login">Логин</label>
         <input type="text" id="login" name="login" />

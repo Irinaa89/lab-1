@@ -1,15 +1,33 @@
  <!-- Форма -->
  <div class="form-wrapper">
-      <form action="https://httpbin.org/post" method="post">
+      <form action="../home.php" method="post">
         <!-- ФИО -->
 
         <label for="fio">ФИО</label>
-        <input type="text" id="fio" name="fio" />
+        <input type="text" id="fio" name="fio" value = <?php 
+        if(isset($_GET["F"])){
+          echo $_GET["F"];
+        } else {
+          echo "";
+        }
+        
+        
+        
+        ?>>
 
         <!-- Email -->
 
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" />
+        <input type="email" id="email" name="email" value = <?php 
+        if(isset($_GET["E"])){
+          echo $_GET["E"];
+        } else {
+          echo "";
+        }
+        
+        
+        
+        ?>>
 
         <!-- Radio buttons -->
         <label for="">Откуда вы узнали про нас?</label>
@@ -33,7 +51,13 @@
 
         <!-- Text -->
         <label for="text">Введите ваше сообщение</label>
-        <textarea id="text" name="message"></textarea>
+        <textarea id="text" name="message"><?php 
+        if(isset($_GET["M"])){
+          echo $_GET["M"];
+        } else {
+          echo "";
+        }
+        ?></textarea>
 
         <!-- File input -->
         <input type="file" id="file" name="file_name" />

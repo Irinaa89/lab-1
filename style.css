@@ -124,3 +124,51 @@ a {
 .footer__backToTop {
   color: white;
 }
+
+.response_wrapper {
+  margin: 150px auto;
+  margin-bottom: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.response {
+  padding: 50px 80px;
+  max-width: 700px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgb(219, 219, 219);
+}
+
+.response p {
+  color: #000;
+  margin: 15px 0;
+}
+
+.response textarea {
+  margin: 20px 0;
+  width: 100%;
+  min-height: 200px;
+  font-size: 16px;
+  resize: none;
+}
+
+.response h1 {
+  margin-bottom: 20px;
+}
+
+.response button a {
+  color: rgb(250, 185, 124);
+}
+
+.response button:hover a {
+  color: #fff;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: rgb(103, 255, 103);
+}
